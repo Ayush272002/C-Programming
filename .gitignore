@@ -49,7 +49,7 @@
 modules.order
 
 # Custom
-.txt
+*.txt
 Module.symvers
 Mkfile.old
 dkms.conf
