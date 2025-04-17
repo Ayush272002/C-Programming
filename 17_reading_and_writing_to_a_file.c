@@ -13,7 +13,7 @@ int main()
     if (output == NULL)
     {
         printf("Error opening output file!\n");
-        fclose(file); // Don't forget to close the input file
+        fclose(file); // close the input file
         return 1;
     }
 
