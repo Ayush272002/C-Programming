@@ -27,6 +27,17 @@ The repository is organized into individual `.c` files, each demonstrating a par
 - **[20_function_ptr_w_params.c](20_function_ptr_w_params.c)**: Function pointers with parameters  
 - **[21_passing_func_ptr_to_a_func.c](21_passing_func_ptr_to_a_func.c)**: Passing function pointers to functions  
 - **[22_array_of_func_ptrs.c](22_array_of_func_ptrs.c)**: Array of function pointers  
+- **[23_command_line_args.c](23_command_line_args.c)**: Demonstrates how to handle command-line arguments (`argc` and `argv`) in C programs  
+- **[24_simple_thread.c](24_simple_thread.c)**: Introduces basic multithreading by creating and executing a simple thread using the `pthread` library  
+- **[25_pass_data_to_thread.c](25_pass_data_to_thread.c)**: Shows how to pass data to a thread function using pointers, enabling threads to operate on specific data  
+- **[26_multiple_threads_with_args.c](26_multiple_threads_with_args.c)**: Creates multiple threads, each receiving different arguments, illustrating concurrent execution with varied data  
+- **[27_passing_structs_to_threads.c](27_passing_structs_to_threads.c)**: Demonstrates passing structures to threads, allowing complex data to be shared and manipulated within threads  
+- **[28_using_mutex_for_sync.c](28_using_mutex_for_sync.c)**: Utilizes mutexes to synchronize threads, preventing race conditions when accessing shared resources  
+- **[29_conditional_variable_adv_sync.c](29_conditional_variable_adv_sync.c)**: Employs condition variables alongside mutexes to manage complex thread synchronization scenarios  
+- **[30_thread_detach.c](30_thread_detach.c)**: Explains how to detach threads, allowing them to run independently and reclaim resources upon completion  
+- **[31_thread_pool.c](31_thread_pool.c)**: Implements a basic thread pool, managing a set of worker threads to execute tasks efficiently  
+- **[32_basic_tcp_server.c](32_basic_tcp_server.c)**: Sets up a simple TCP server that listens for client connections and handles basic communication  
+- **[33_basic_client.c](33_basic_client.c)**: Creates a TCP client that connects to a server, sends messages, and receives responses  
 
 ## 🛠️ Getting Started
 
