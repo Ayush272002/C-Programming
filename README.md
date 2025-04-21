@@ -69,11 +69,13 @@ To compile and run any of the programs:
 
 ## 🎯 Purpos
 
-This repository serves as a hands-on guide fr:
+This repository serves as a hands-on guide for:
 - Understanding basic to advanced C programming conceps.
 - Practicing file I/O operatios.
 - Exploring pointers, structures, and dynamic memory allocatin.
-- Learning about function pointers and their applicatios.
+- Learning about function pointers and their applications.
+- Concurrent Programming  
+- Socket Programming
 
 ## 🤝 Contributig
 
